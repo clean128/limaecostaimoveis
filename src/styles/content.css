@@ -1,0 +1,89 @@
+.split-section {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 52px;
+  align-items: start;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.feature-list {
+  display: grid;
+  gap: 16px;
+}
+
+.feature-list article {
+  padding: 26px;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: #fff;
+}
+
+.feature-list span {
+  color: var(--gold);
+  font-weight: 900;
+}
+
+.feature-list h3 {
+  margin: 10px 0 8px;
+  color: var(--navy);
+  font-size: 24px;
+}
+
+.feature-list p {
+  margin: 0;
+}
+
+.lead-section {
+  display: grid;
+  grid-template-columns: 0.9fr 0.7fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.lead-section > div > p {
+  margin: 18px 0 0;
+  font-size: 18px;
+}
+
+.lead-form {
+  display: grid;
+  gap: 16px;
+  padding: 28px;
+  border-radius: 32px;
+  background: var(--navy);
+  box-shadow: 0 30px 90px rgba(7, 15, 34, 0.18);
+}
+
+.lead-form label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.lead-form button {
+  min-height: 52px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.lead-form p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 13px;
+}
+
+footer {
+  justify-content: space-between;
+  gap: 24px;
+  padding: 36px clamp(20px, 5vw, 72px);
+  color: rgba(255, 255, 255, 0.72);
+  background: #061026;
+}
+
+footer img {
+  width: 220px;
+  max-width: 42vw;
+}
+
+footer p {
+  margin: 0;
+}

@@ -1,0 +1,47 @@
+:root {
+  --navy: #071022;
+  --navy-soft: #0e1c3a;
+  --gold: #c69135;
+  --gold-light: #f5c86b;
+  --cream: #fff7e6;
+  --muted: #697386;
+  --soft: #f6f2eb;
+  --soft-gold: #f8e7bd;
+  --border: #e9dfcf;
+  --bg: #fbfaf7;
+
+  --sans:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --heading: Georgia, 'Times New Roman', serif;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--navy);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
