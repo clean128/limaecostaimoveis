@@ -59,6 +59,18 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
+.lead-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 110px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 12px 14px;
+  color: var(--navy);
+  background: #fff;
+  resize: vertical;
+}
+
 .lead-form button {
   min-height: 52px;
   cursor: pointer;

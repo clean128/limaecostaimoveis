@@ -14,5 +14,7 @@ export type Property = {
   suites: string
   parking: string
   image: string
+  images: string[]
   highlight: string
+  description: string
 }
